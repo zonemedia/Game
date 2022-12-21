@@ -1,8 +1,8 @@
 /* -----------------------------------------------
-/* Author : Vincent Garreau  - vincentgarreau.com
+/* Author : Samuel Pasaribu  - samuelpasaribu.com
 /* MIT license: http://opensource.org/licenses/MIT
-/* Demo / Generator : vincentgarreau.com/particles.js
-/* GitHub : github.com/VincentGarreau/particles.js
+/* Demo / Generator : https://zonemedia.github.io/game
+/* GitHub : github.com/zonemedia/Game/blob/main/particles.js
 /* How to use? : Check the GitHub README
 /* v2.0.0
 /* ----------------------------------------------- */
