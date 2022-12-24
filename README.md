@@ -2,7 +2,12 @@
 📁 <a href="https://github.com/zonemedia/zonemedia.github.io">zonemedia.github.io</a>
 <br />
 📁 zonemedia.github.io/game/<a href="https://zonemedia.github.io/game">index.html</a>
-# millionaire
+## Localhost
+<p>C:\xampp\htdocs>zonemedia.github.io/game/</p>
+📁 data
+<br />
+📄 <a href="https://zonemedia.github.io/game">index.html</a>
+<h1>millionaire</h1>
 📁 <a href="https://github.com/zonemedia/zonemedia.github.io">zonemedia.github.io</a>
 <br />
 📁 zonemedia.github.io/game/
@@ -26,13 +31,11 @@
 📄 <a href="https://github.com/zonemedia/zonemedia.github.io/blob/master/game/questions.json">questions.json</a>
 <br />
 📄 <a href="https://github.com/zonemedia/zonemedia.github.io/blob/master/game/questions2.json">questions2.json</a>
-## Localhost
+<h2>Localhost</h2>
 <p>C:\xampp\htdocs>zonemedia.github.io/game/millionaire/</p>
 📁 css
 <br />
 📁 img
-<br />
-📁 public
 <br />
 📁 js
 <br />
