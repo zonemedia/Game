@@ -48,3 +48,20 @@
 📄 questions2.json
 <br />
 📄 <a href="https://zonemedia.github.io/game/millionaire">index.html</a>
+<h1>Typing</h1>
+📁 <a href="https://github.com/zonemedia/zonemedia.github.io">zonemedia.github.io</a>
+<br />
+📁 zonemedia.github.io/game/
+<br />
+📁 <a href="https://github.com/zonemedia/Game/tree/main/css">css/styles.css</a>
+<br />
+📁 <a href="https://github.com/zonemedia/Game/tree/main/js">js/script.js</a>
+<br />
+📁 zonemedia.github.io/game/typing/<a href="https://zonemedia.github.io/game/typing">index.html</a>
+<h2>Localhost</h2>
+<p>C:\xampp\htdocs>zonemedia.github.io/game/typing/</p>
+📁 css
+<br />
+📁 js
+<br />
+📄 <a href="https://zonemedia.github.io/game/typing">index.html</a>
