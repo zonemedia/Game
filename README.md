@@ -6,6 +6,8 @@
 <p>C:\xampp\htdocs>zonemedia.github.io/game/</p>
 📁 data
 <br />
+📁 fonts
+<br />
 📄 <a href="https://zonemedia.github.io/game">index.html</a>
 <h1>millionaire</h1>
 📁 <a href="https://github.com/zonemedia/zonemedia.github.io">zonemedia.github.io</a>
