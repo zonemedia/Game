@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Game - Zonemedia</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zonemedia/game/data/css/default.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zonemedia/game/data/helper/popup.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zonemedia/game/data/css/styles.css"/>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">
+                <img src="https://raw.githubusercontent.com/zonemedia/Game/main/data/img/zonemedia.github.io.png" width="45" alt="Kirimin Logo"/>
+                <span>ZONEMEDIA</span>
+            </h1>
+            <div class="menu">
+                <a href="https://zoneamedia.blogspot.com" class="library">BLOG</a>
+                <a href="https://myidchat.web.app" class="login">LOGIN</a>
+            </div>
+        </header>
+        <main>
+            <article class="title-screen">
+                <div class="hero">
+                    <img width="125" src="https://raw.githubusercontent.com/zonemedia/Game/main/data/img/zonemedia.png" alt="game-zonemedia">
+                    <div class="spinning">
+                        <i class="fa-duotone fa-microphone-lines"></i>
+                        <i class="fa-duotone fa-paper-plane"></i>
+                        <i class="fa-duotone fa-camera-retro"></i>
+                        <i class="fa-duotone fa-comments"></i>
+                        <i class="fa-duotone fa-bug"></i>
+                        <i class="fa-duotone fa-file"></i>
+                        <i class="fa-duotone fa-earth-asia"></i>
+                        <i class="fa-duotone fa-robot"></i>
+                    </div>
+                </div>
+                <div class="description">
+                    <h1>Game Zonemedia</h1>
+                    <p>
+                        Anda bisa langsung memainkan game yang anda sukai tanpa iklan dan tanpa perlu mengunduh. Cukup klik salah satu game untuk mulai memainkannya, Gratis!
+                    </p>
+                    <a class="login" href="#tools">Repositories</a>
+                </div>
+                <footer class="wave">
+                    <img src="https://raw.githubusercontent.com/zonemedia/Game/main/data/img/wave.svg" alt="aaa">
+                </footer>
+            </article>
+            <article class="content" id="tools">
+                <h1 class="content-title">POPULAR GAMES</h1>
+                <div class="main-content">
+                    <div class="banner fapro"></div>
+                    <div class="description">
+                        <h1>Millionaire Game</h1>
+                        <p>Millionaire Game Play Free</p>
+                        <a href="https://zonemedia.github.io/game/millionaire/" target="_blank">Buka</a>
+                    </div>
+                    <span>cracked by Samuel</span>
+                </div>
+                <div class="main-content right">
+                    <div class="description">
+                        <h1>Play Along Drums</h1>
+                        <p>https://github.com/bobbyrne01/play-along</p>
+                        <a href="https://bobbyrne01.github.io/play-along/" target="_blank">Buka</a>
+                    </div>
+                    <div class="banner firebase"></div>
+                    <span>by bobbyrne01</span>
+                </div>
+                <div class="main-content">
+                    <div class="banner notipin"></div>
+                    <div class="description">
+                        <h1>Typing Game JS</h1>
+                        <p>Easy, Medium or Hard</p>
+                        <a href="https://zonemedia.github.io/game/typing/" target="_blank">Buka</a>
+                    </div>
+                    <span>made by Samuel</span>
+                </div>
+                <div class="main-content right">
+                    <div class="description">
+                        <h1>Ping Pong</h1>
+                        <p>Pong is a table tennis</p>
+                        <a href="https://zonemedia.github.io/game/pingpong.html" target="_blank">Buka</a>
+                    </div>
+                    <div class="banner kontrolin"></div>
+                    <span>made by Samuel</span>
+                </div>
+            </article>
+            <footer id="footer">
+                <a target="_blank" href="https://github.com/zonemedia">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a target="_blank" href="https://zonemedia.github.io/music">
+                    <i class="fa-brands fa-spotify"></i>
+                    <span>Music</span>
+                </a>
+                <a target="_blank" href="https://zonemedia.github.io/deface">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>Youtube</span>
+                </a>
+                <a target="_blank" href="https://www.samuelpasaribu.com/">
+                    <i class="fa-brands fa-blogger-b"></i>
+                    <span>Blog Site</span>
+                </a>
+                <a target="_blank" href="https://chatkoding.web.app/">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Mail</span>
+                </a>
+            </footer>
+        </main>
+        <script src="https://cdn.jsdelivr.net/gh/zonemedia/game/data/helper/popup.js"></script>
+        <script>
+
+            const main = document.querySelector('main');
+            const header = document.querySelector('header');
+            let scrolledDown = false;
+            main.addEventListener('scroll', function() {
+                if (!header.classList.contains('scrolled')) {
+                    header.classList.add('scrolled')
+                }
+                if (main.scrollTop == 0 && header.classList.contains('scrolled')) {
+                    header.classList.remove('scrolled');
+                }
+                if (main.scrollTop >= main.clientHeight / 2 && scrolledDown === false) {
+                    popup.confirm({
+                        msg: 'Apa Kamu Seorang Programmer?<br/>atau suka dengan hal yang berbau programming?',
+                        yes: 'Iya, Betul',
+                        no: 'Tidak',
+                        onyes: ()=>{
+                            document.body.classList.add('dark');
+                            popup.alert({
+                                msg: 'We Are Anonymous',
+                                type: 'blue'
+                            });
+                        }
+                        ,
+                        type: 'blue'
+                    });
+                    scrolledDown = true;
+
+                }
+            });
+        </script>
+    </body>
+</html>
