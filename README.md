@@ -1,6 +1,8 @@
 # game
 📁 <a href="https://github.com/zonemedia/zonemedia.github.io">zonemedia.github.io</a>
 <br />
+📁 zonemedia.github.io/game/fonts
+<br />
 📁 zonemedia.github.io/game/<a href="https://zonemedia.github.io/game">index.html</a>
 ## Localhost
 <p>C:\xampp\htdocs>zonemedia.github.io/game/</p>
