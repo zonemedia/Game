@@ -283,6 +283,9 @@ body {
   main article.content .main-content .banner.kontrolin {
     background-image: url(../img/game_zonemedia_empat.jpg);
   }
+  main article.content .main-content .banner.game {
+    background-image: url(../img/game_zonemedia_lima.jpg);
+  }
   main article.content .main-content .description {
     text-align: left;
   }
